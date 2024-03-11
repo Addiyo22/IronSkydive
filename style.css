@@ -147,6 +147,21 @@ h5{
 
 /* section 3 */
 
+#team{
+    padding: 75px 0;
+    margin: 0 auto;
+}
+
+#team p{
+    width: 60%;
+    margin: 10px auto;
+}
+
+#team hr{
+    margin: 20px auto 30px;
+    width: 40%;
+}
+
 #team .section-text{
     font-size: 1.9em;
     text-align: center;
