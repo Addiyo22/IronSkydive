@@ -180,6 +180,17 @@ h5{
 
 /* section 4 */
 
+.schedule-table{
+    margin: 0 auto 40px;
+    font-size: 1.5em;
+}
+
+.schedule-table th, td{
+    border-bottom: 1px solid black;
+    padding: 5px 10px;
+    text-align: center;
+}
+
 /* Footer */
 .footer{
     text-align: center;
