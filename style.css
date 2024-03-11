@@ -195,13 +195,26 @@ h5{
 .footer{
     text-align: center;
     font-size: 1.9em;
+    padding: 40px 100px;
+    margin-bottom: 25px;
 }
+
+.footer ul{
+    padding-left: 0;
+    list-style: none;
+}
+
 .footer a{
     color: rgb(67, 163, 230);
     text-decoration: none;
+    padding: 0;
 }
 
+.footer h5{
+    margin: 0;
+}
 .address{
     font-style: normal;
     font-size: 0.8em;
+    margin-bottom: 30px;
 }
