@@ -12,9 +12,6 @@ body{
     font-weight: 300;
 }
 
-ul{
-    padding-left: 0;
-}
  /* styling headings*/
 
 h1,h2,h3,h4,h5,h6{
@@ -55,11 +52,24 @@ h5{
 
 .nav-bar{
     background-color: rgb(25, 33, 41);
+    padding: 14px 0;
 }
+
 .nav-bar a{
     color: white;
     text-decoration: none;
     font-size: 2em;
+}
+
+.nav-ul{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-ul li{
+    padding-left: 0;
+    list-style-type: none;
+    text-align: center;
 }
 
 /* header section */
