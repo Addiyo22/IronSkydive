@@ -80,6 +80,7 @@ h5{
     background-position: 0 0;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-top: 50px;
 }
 
 .header h2{
@@ -95,6 +96,12 @@ h5{
 
 /* section 1 */
 
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
 .dark-background{
     background-color: rgb(25, 33, 41);
     color: white;
@@ -104,6 +111,7 @@ h5{
     font-size: 2em;
     font-weight: 100;
     text-align: center;
+    margin: 20px 0;
 }
 
 .link-btn{
