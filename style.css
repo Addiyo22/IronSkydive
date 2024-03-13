@@ -49,6 +49,19 @@ h5{
     line-height: 1em;
 }
 
+/* common classes */
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.dark-background{
+    background-color: rgb(25, 33, 41);
+    color: white;
+}
+
  /* nav section */
 
 .nav-bar{
@@ -63,6 +76,8 @@ h5{
 }
 
 .nav-ul{
+    display: flex;
+    justify-content: space-evenly;
     width: 1200px;
     margin: 0 auto;
 }
@@ -76,6 +91,7 @@ h5{
 /* header section */
 
 .header{
+    position: relative;
     height: 650px;
     background-image: url(https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg);
     background-position: 0 0;
@@ -92,25 +108,27 @@ h5{
  /* quote section */
 
 .quote{
+    position: absolute;
+    left: 10%;
+    bottom: 100px;
     font-size: 2.5em;
-}
-
-/* common classes */
-
-.container{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 75px 0;
-}
-
-.dark-background{
-    background-color: rgb(25, 33, 41);
-    color: white;
 }
 
 /* section 1 */
 
-.text{
+#general-information{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#general-information .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+}
+
+.text{                                              
     font-size: 2em;
     font-weight: 100;
     text-align: center;
@@ -118,6 +136,7 @@ h5{
 }
 
 .link-btn{
+    padding: 10px 30px;
     background-color: rgb(67, 163, 230);
     color: white;
     font-family: Roboto Condensed;
@@ -127,9 +146,7 @@ h5{
     text-decoration: none;
 }
 
-/* section 2 */
-
-.service-box{
+.service-box{                                       /* section 2 */
     font-size: 1.7em;
     text-align: center;
     border: 2px solid #eee;
@@ -144,10 +161,8 @@ h5{
 .service-box img{
     width: 125px;
 }
-
-/* section 3 */
-
-#team{
+ /* section 3 */
+#team{                                  
     padding: 75px 0;
     margin: 0 auto;
 }
