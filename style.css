@@ -146,7 +146,15 @@ h5{
     text-decoration: none;
 }
 
-.service-box{                                       /* section 2 */
+ /* section 2 */
+
+#structure > div{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.service-box{                                      
     font-size: 1.7em;
     text-align: center;
     border: 2px solid #eee;
@@ -162,9 +170,22 @@ h5{
     width: 125px;
 }
  /* section 3 */
+
 #team{                                  
     padding: 75px 0;
     margin: 0 auto;
+}
+
+#team > div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#team > div > article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #team p{
@@ -208,6 +229,9 @@ h5{
 
 /* Footer */
 .footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     text-align: center;
     font-size: 1.9em;
     padding: 40px 100px;
@@ -232,4 +256,9 @@ h5{
     font-style: normal;
     font-size: 0.8em;
     margin-bottom: 30px;
+}
+
+.map-frame{
+    height: 375px;
+    width: 60%;
 }
