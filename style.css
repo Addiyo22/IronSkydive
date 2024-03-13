@@ -227,17 +227,6 @@ h5{
     text-align: center;
 }
 
-/* Footer */
-.footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    font-size: 1.9em;
-    padding: 40px 100px;
-    margin-bottom: 25px;
-}
-
 .slot-form-container{
     width: 40%;
     margin: 18px auto 0;
@@ -270,6 +259,18 @@ h5{
     padding: 9px;
     margin-top: 15px;
 }
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 1.9em;
+    padding: 40px 100px;
+    margin-bottom: 25px;
+}
+
 .footer ul{
     padding-left: 0;
     list-style: none;
